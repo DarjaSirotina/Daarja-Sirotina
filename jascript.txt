@@ -1,0 +1,8 @@
+function changeImage() {
+    const img = document.getElementById("mainImage");
+    if (img.src.includes("img1")) {
+        img.src = "images/img2.jpg";
+    } else {
+        img.src = "images/img1.jpg";
+    }
+}
