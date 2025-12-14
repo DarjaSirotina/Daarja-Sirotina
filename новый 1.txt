@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notepad - HTML, CSS un JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Mans Notepad</h1>
+    </header>
+
+    <main>
+        <textarea id="notepad" placeholder="Raksti savu tekstu šeit..."></textarea>
+        <div class="buttons">
+            <button onclick="saveNote()">💾 Saglabāt</button>
+            <button onclick="clearNote()">🗑️ Notīrīt</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>Izveidots ar HTML, CSS un JavaScript</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
